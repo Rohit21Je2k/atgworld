@@ -1,0 +1,54 @@
+.banner {
+  position: relative;
+  height: 27.5rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../media/banner.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+}
+
+.banner__back {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 10px;
+  background: transparent;
+  border: none;
+}
+
+.banner__join {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  background: transparent;
+  border: white 3px solid;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.banner__text {
+  position: absolute;
+  left: 100px;
+  bottom: 80px;
+  text-align: left;
+}
+
+.banner__text > h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.banner__text > p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}

@@ -1,0 +1,89 @@
+.signup-desktop {
+  position: fixed;
+  width: 750px;
+  z-index: 5;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.signup-desktop > button {
+  width: 28px;
+  height: 28px;
+  margin-left: auto;
+  margin-bottom: 8px;
+  border-radius: 100%;
+  background: #e0e0e0;
+}
+
+.signup-desktop > button > img {
+  width: 12px;
+  height: 12px;
+}
+
+.signup-desktop > div {
+  background: white;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.signup-desktop-banner {
+  background: #effff4;
+  border-radius: 8px 8px 0px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #008a45;
+  padding: 17px;
+}
+
+.signup-desktop-form {
+  padding: 36px;
+}
+
+.signupImg {
+  margin: 24px;
+  width: 320px;
+  height: 320px;
+}
+
+.signup-desktop-form .flex-col {
+  margin-left: 10px;
+}
+
+.signup-desktop-form .flex-col > *:nth-child(1) {
+  font-weight: 400;
+  font-size: 13px;
+  text-align: right;
+  color: black;
+}
+
+.signup-desktop-form .flex-col > *:nth-child(1) > button {
+  font-size: 13px;
+  font-weight: 600;
+  background: none;
+  font-size: 13px;
+  color: #2f6ce5;
+}
+
+.signup-desktop-form .flex-col > *:nth-child(3) {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: right;
+  color: black;
+  opacity: 0.7;
+}
+
+.fade {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.signup-main-container {
+  transition: all 300ms ease-in-out;
+}
+
+.display-none {
+  display: none;
+}

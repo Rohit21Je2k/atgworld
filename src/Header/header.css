@@ -1,0 +1,75 @@
+.header {
+  padding: 1.5rem 4.5rem;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.header__logo > img {
+  display: block;
+  width: 10.1875rem;
+  height: 1.5rem;
+}
+
+.header__searchBar {
+  width: 24.5rem;
+  height: 2.625rem;
+  padding: 0.75rem;
+  padding-right: 1.5rem;
+  background: #f2f2f2;
+  border-radius: 21px;
+}
+.header__searchBar > img {
+  width: 1.375rem;
+  height: 1.375rem;
+  margin-right: 0.875rem;
+}
+
+.header__searchBar > input {
+  background: transparent;
+  border: none;
+  flex-grow: 1;
+  color: #5c5c5c;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.header__join {
+  display: inline;
+  color: #2e2e2e;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.header__join > button:nth-child(1) {
+  font-weight: bold;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  color: #4c6ff5;
+}
+
+.header__join > button:nth-child(2) {
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: none;
+}
+
+/* Hamburger */
+.header__hamburger {
+  background: transparent;
+  border: none;
+}
+
+.header__hamburger > span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background: #495057;
+  transition: all 300ms ease-in-out;
+  transform-origin: 3px 1px;
+}
+
+.header__hamburger > span:not(:last-child) {
+  margin-bottom: 5px;
+}

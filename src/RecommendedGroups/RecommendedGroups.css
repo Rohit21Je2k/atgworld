@@ -1,0 +1,14 @@
+.recommended-groups {
+  margin: 54px 0;
+}
+
+.recommended-groups > div:nth-child(1) {
+  margin-bottom: 24px;
+}
+
+.recommended-groups > div:nth-child(1) > h2 {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

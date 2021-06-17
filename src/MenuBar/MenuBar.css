@@ -1,0 +1,108 @@
+.menuBar {
+  margin-top: 40px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #e0e0e0;
+}
+
+.menuBar__links > button {
+  position: relative;
+  height: 21px;
+  font-size: 1rem;
+  color: #8a8a8a;
+  margin-right: 20px;
+  border: none;
+  transition: color 200ms ease-in-out;
+}
+
+.menuBar__links > button:hover {
+  color: #000000;
+}
+
+.menuBar__links > button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  height: 2px;
+  background: black;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.menuBar__links > button:hover::before {
+  opacity: 1;
+}
+
+.menubar__btn {
+  display: inline-flex;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 10px 10px 0;
+  color: black;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 12px;
+}
+
+.menubar__createBtn {
+  width: 133px;
+  background: #ced4da;
+}
+
+.menubar__joinBtn {
+  min-width: 123px;
+  background: #2f6ce5;
+  color: white;
+}
+
+.menubar__joinBtn > img {
+  width: 18px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.menuBar__leaveBtn {
+  background: white !important;
+  color: rgba(152, 152, 153, 1);
+  border: 2px solid rgba(152, 152, 153, 1);
+}
+
+.menubar-mobile {
+  padding: 15px 20px;
+  background: white;
+}
+
+.menubar-mobile > h2 {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #212529;
+}
+
+.menubar-mobile > button {
+  width: 106px;
+  height: 32px;
+  background: #f1f3f5;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212529;
+}
+
+.menubar-mobile > button > img {
+  width: 10px;
+  height: 10px;
+}
+
+.link-selected {
+  color: #000000 !important;
+}
+
+.link-selected::before {
+  opacity: 1 !important;
+}

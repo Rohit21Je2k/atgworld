@@ -1,0 +1,43 @@
+.post {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post__location {
+  display: block;
+  width: 243px;
+  min-width: 243px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.post__location img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.post__location > div:first-child {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b8b8b8;
+  margin-bottom: 20px;
+}
+
+.post__location > div:last-child {
+  font-size: 12px;
+  color: #525252;
+  text-align: left;
+}
+
+.see-more {
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: auto;
+  color: #2f6ce5;
+}
